@@ -1,0 +1,125 @@
+{
+    "universities": [
+       {
+           "state-province": null,
+           "web_pages": [
+               "http://www.aum.edu.kw/"
+           ],
+           "country": "Kuwait",
+           "name": "American University of Middle East",
+           "alpha_two_code": "KW",
+           "domains": [
+               "aum.edu.kw"
+           ]
+       },
+       {
+           "state-province": null,
+           "web_pages": [
+               "http://www.middlebury.edu/"
+           ],
+           "country": "United States",
+           "name": "Middlebury College",
+           "alpha_two_code": "US",
+           "domains": [
+               "middlebury.edu"
+           ]
+       },
+       {
+           "state-province": null,
+           "web_pages": [
+               "http://www.meu.edu.jo/"
+           ],
+           "country": "Jordan",
+           "name": "Middle East University",
+           "alpha_two_code": "JO",
+           "domains": [
+               "meu.edu.jo"
+           ]
+       },
+       {
+           "state-province": null,
+           "web_pages": [
+               "http://www.metu.edu.tr/"
+           ],
+           "country": "Turkey",
+           "name": "Middle East Technical University",
+           "alpha_two_code": "TR",
+           "domains": [
+               "metu.edu.tr"
+           ]
+       },
+       {
+           "state-province": null,
+           "web_pages": [
+               "http://www.mga.edu/"
+           ],
+           "country": "United States",
+           "name": "Middle Georgia State College",
+           "alpha_two_code": "US",
+           "domains": [
+               "mga.edu"
+           ]
+       },
+       {
+           "state-province": null,
+           "web_pages": [
+               "http://www.mtsu.edu/"
+           ],
+           "country": "United States",
+           "name": "Middle Tennessee State University",
+           "alpha_two_code": "US",
+           "domains": [
+               "mtsu.edu"
+           ]
+       },
+       {
+           "state-province": null,
+           "web_pages": [
+               "http://www.middlesex.mass.edu"
+           ],
+           "country": "United States",
+           "name": "Middlesex Community College",
+           "alpha_two_code": "US",
+           "domains": [
+               "middlesex.mass.edu"
+           ]
+       },
+       {
+           "state-province": null,
+           "web_pages": [
+               "http://www.middlesexcc.edu"
+           ],
+           "country": "United States",
+           "name": "Middlesex County College",
+           "alpha_two_code": "US",
+           "domains": [
+               "middlesexcc.edu"
+           ]
+       },
+       {
+           "state-province": null,
+           "web_pages": [
+               "http://www.mdx.ac.uk/"
+           ],
+           "country": "United Kingdom",
+           "name": "Middlesex University",
+           "alpha_two_code": "GB",
+           "domains": [
+               "mdx.ac.uk"
+           ]
+       },
+       {
+           "state-province": null,
+           "web_pages": [
+               "https://www.mbro.ac.uk/"
+           ],
+           "country": "United Kingdom",
+           "name": "Middlesbrough College",
+           "alpha_two_code": "GB",
+           "domains": [
+               "middlesbro.ac.uk",
+               "mbro.ac.uk"
+           ]
+       }
+    ]
+   }
