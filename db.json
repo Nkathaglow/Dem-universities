@@ -9,6 +9,7 @@
            "country": "Kuwait",
            "name": "American University of Middle East",
            "alpha_two_code": "KW",
+           "like": "true",
            "domains": [
                "aum.edu.kw"
            ]
@@ -22,19 +23,21 @@
            "country": "United States",
            "name": "Middlebury College",
            "alpha_two_code": "US",
+           "like": "true",
            "domains": [
                "middlebury.edu"
            ]
        },
        {
            "state-province": null,
-           "poster": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Middle-east-university-entrance.jpg",
+           "poster": "https://mcdonnell.wustl.edu/wp-content/uploads/2020/10/METU.jpg",
            "web_pages": [
                "http://www.meu.edu.jo/"
            ],
            "country": "Jordan",
            "name": "Middle East University",
            "alpha_two_code": "JO",
+           "like": "true",
            "domains": [
                "meu.edu.jo"
            ]
@@ -48,6 +51,7 @@
            "country": "Turkey",
            "name": "Middle East Technical University",
            "alpha_two_code": "TR",
+           "like": "true",
            "domains": [
                "metu.edu.tr"
            ]
@@ -61,6 +65,7 @@
            "country": "United States",
            "name": "Middle Georgia State College",
            "alpha_two_code": "US",
+           "like": "true",
            "domains": [
                "mga.edu"
            ]
@@ -74,6 +79,7 @@
            "country": "United States",
            "name": "Middle Tennessee State University",
            "alpha_two_code": "US",
+           "like": "true",
            "domains": [
                "mtsu.edu"
            ]
@@ -87,6 +93,7 @@
            "country": "United States",
            "name": "Middlesex Community College",
            "alpha_two_code": "US",
+           "like": "true",
            "domains": [
                "middlesex.mass.edu"
            ]
@@ -100,6 +107,7 @@
            "country": "United States",
            "name": "Middlesex County College",
            "alpha_two_code": "US",
+           "like": "true",
            "domains": [
                "middlesexcc.edu"
            ]
@@ -113,6 +121,7 @@
            "country": "United Kingdom",
            "name": "Middlesex University",
            "alpha_two_code": "GB",
+           "like": "true",
            "domains": [
                "mdx.ac.uk"
            ]
@@ -126,6 +135,7 @@
            "country": "United Kingdom",
            "name": "Middlesbrough College",
            "alpha_two_code": "GB",
+           "like": "true",
            "domains": [
                "middlesbro.ac.uk",
                "mbro.ac.uk"
