@@ -141,7 +141,7 @@ body {
     font-size: 0.9rem;
   }
   .card-img {
-    width: 100%;
+    width: 50%;
     height: 300px;
     object-fit: cover;
   }
