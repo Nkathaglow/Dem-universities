@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-    background-color: #0c0cf7;
+    background-color: #b0b4bc;
 }
 
 span {
@@ -18,8 +18,8 @@ span.fade {
 }
 
 .hero{
-  width: 80%;
-  height: 70vh;
+  width: 90%;
+  height: 60vh;
   background-image:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
   position: relative;
   padding: 0 5%;
@@ -34,7 +34,7 @@ span.fade {
 
 .content h1 {
     font-size: 140px;
-    color: #7dd5eb;
+    color: #b9b0bc;
     font-weight: 500;
 }
 
@@ -52,11 +52,11 @@ span.fade {
   .card-container .card {
     width: calc(50% - 10px);
     margin: 10px;
-    background-color: #4CAF50;
+    background-color: #b09c81;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   
   .card-container .card img {
@@ -131,36 +131,18 @@ span.fade {
     object-fit: cover;
   }
   .card-container:hover .card-content {
-    background-color: #5089c8;
+    background-color: #cbaf92;
   }
 
-  .like-btn, .dislike-btn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
   
-
-  .active {
-    color: red;
-  }
-  
-  /* Style the count */
-  .like-count {
-    font-size: 20px;
-  }
-
-  .like-dislike-btn{
-    margin-left: 50%;
-  }
   .chat-popup {
     position: fixed;
     top: 0;
     right: 15px;
     text-align: center;
-    border: 3px solid #0838e6;
+    border: 3px solid #b0b4bc;
     z-index: 9999;
-    background-color: #c97deb;
+    background-color: #81a5b0;
     width: 350px;
     height: 400px;
     display: none;
@@ -178,7 +160,7 @@ span.fade {
     box-sizing: border-box;
     border: 1px solid #121312;
     border-radius: 4px;
-    background-color: #7dd5eb;
+    background-color: #81b0a9;
     resize: none;
   }
   
@@ -291,34 +273,7 @@ span.fade {
   .popup-footer button:hover {
     background-color: #3e8e41;
   }
-  .slideshow {
-    position: relative;
-    height: 400px;
-  }
   
-  .slideshow img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .slideshow img:first-child {
-    opacity: 1;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .row img {
-    width: 120px;
-    margin-right: 10px;
-  }
   .popup {
     position: fixed;
     top: 0;

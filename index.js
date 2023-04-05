@@ -60,11 +60,19 @@ fetch("http://localhost:3000/universities")
     cardTextDomains.classList.add("card-text");
     cardTextDomains.textContent = `Domains: ${university.domains}`;
 
+    let likeCount = 0;
+
+    const cardTextLikes = document.getElementById("likeButton").addEventListener("click", function() {
+    likeCount++;
+    document.getElementById("likeCount").innerHTML = likeCount;
+    });
 
     cardContent.appendChild(cardTitle);
     cardContent.appendChild(cardTextCountry);
     cardContent.appendChild(cardLinkWebsite);
     cardContent.appendChild(cardTextDomains);
+    
+    
     
     cardContainer.appendChild(cardImg);
     cardContainer.appendChild(cardContent);
@@ -106,9 +114,9 @@ sendButton.addEventListener("click", () => {
   // Check if the user sent "hi"
   if (message.toLowerCase() === "hi") {
     newMessage.textContent = "Welcome to our channel, how can we help you?";
-  }else if (message.toLowerCase() === "I don't know what to choose") {
+  }else if(message.toLowerCase() === "I don't know what to choose") {
     newMessage.textContent = "Mashallah,you are at the right place";
-  }else if (message.toLowerCase() === "What courses are offered?") {
+  }else if(message.toLowerCase() === "What courses are offered?") {
     newMessage.textContent = "Hoovisi,please consider visiting the sites offered";
   }else {
     newMessage.textContent = `You:${message};`
