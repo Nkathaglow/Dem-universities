@@ -28,52 +28,16 @@ span.fade {
   justify-content: center;
   margin-right: 10px;
 }
-nav{
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px 8%;
-  display: flex;
-  align-items: right;
-  justify-content: space-between;
+.content {
+    text-align: left;
+}
 
+.content h1 {
+    font-size: 140px;
+    color: #7dd5eb;
+    font-weight: 500;
 }
-nav.logo{
-  width:40px;
 
-}
-nav ul li{
-  list-style: none;
-  display: inline-block;
-  margin-left: 40px;
-  margin-right: 20px;
-  font-size: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-nav ul li a{
-  text-decoration: none;
-  color: #4CAF50;
-  font-size: 20px;
-}
-.content{
-  text-align: center;
-}
-.content h1{
-  font-size: 140px;
-  color: #121312;
-  font-weight: 500;
-}
-.content a{
-  text-decoration: none;
-  display: inline-block;
-  color: #4CAF50;
-  font-size: 24px;
-  border: 2px solid #4CAF50;
-  padding: 14px 70px;
-  border-radius: 50px;
-  margin-top: 20px; 
-}
 .back-video{
   position: absolute;
   right: 0;
@@ -96,7 +60,7 @@ nav ul li a{
   }
   
   .card-container .card img {
-    width: 100%;
+    width: 50%;
     height: auto;
     object-fit: cover;
     border-radius: 5px 5px 0 0;
@@ -149,7 +113,7 @@ nav ul li a{
     color: white;
     padding: 10px;
     display: none;
-    width: 100%;
+    width: 50%;
   }
   
   .card-details h2 {
@@ -162,7 +126,7 @@ nav ul li a{
     font-size: 0.9rem;
   }
   .card-img {
-    width: 100%;
+    width: 50%;
     height: 300px;
     object-fit: cover;
   }
