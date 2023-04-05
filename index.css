@@ -4,10 +4,6 @@ body {
     background-color: #0c0cf7;
 }
 
-h1.span {
-    font-size: 4rem;
-}
-
 span {
     opacity: 0;
     transition: all 1s ease;
@@ -187,7 +183,7 @@ nav ul li a{
   }
   
   .chat-popup .chat-area {
-    height: 300px;
+    height: 290px;
     overflow-y: scroll;
   }
   
@@ -208,7 +204,7 @@ nav ul li a{
     border: none;
     cursor: pointer;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     border-radius: 15px;
   }
   
