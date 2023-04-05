@@ -133,6 +133,26 @@ span.fade {
   .card-container:hover .card-content {
     background-color: #5089c8;
   }
+
+  .like-btn, .dislike-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .active {
+    color: red;
+  }
+  
+  /* Style the count */
+  .like-count {
+    font-size: 20px;
+  }
+
+  .like-dislike-btn{
+    margin-left: 50%;
+  }
   .chat-popup {
     position: fixed;
     top: 0;
@@ -318,6 +338,30 @@ span.fade {
   size: 20px;
 
 }
+
+#likeButton {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #likeButton:hover {
+    background-color: #2980b9;
+  }
+  
+  #likeCount {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
 
 
 

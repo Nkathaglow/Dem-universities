@@ -27,6 +27,7 @@ timer = null;
 
 
 
+
 fetch("http://localhost:3000/universities")
 .then(response => response.json())
 .then(data => {
@@ -59,7 +60,6 @@ fetch("http://localhost:3000/universities")
     cardTextDomains.classList.add("card-text");
     cardTextDomains.textContent = `Domains: ${university.domains}`;
 
-    
 
     cardContent.appendChild(cardTitle);
     cardContent.appendChild(cardTextCountry);
@@ -120,6 +120,11 @@ sendButton.addEventListener("click", () => {
 
 });
 
+let likeCount = 0;
 
+document.getElementById("likeButton").addEventListener("click", function() {
+  likeCount++;
+  document.getElementById("likeCount").innerHTML = likeCount;
+});
 
 
