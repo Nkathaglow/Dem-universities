@@ -4,6 +4,23 @@ body {
     background-color: #0c0cf7;
 }
 
+h1.span {
+    font-size: 4rem;
+}
+
+span {
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+
+span.fade {
+    opacity: 1;
+    transform: translateY(0px);
+    color: #0014ff;
+}
+
 .hero{
   width: 80%;
   height: 70vh;
@@ -341,3 +358,6 @@ nav ul li a{
   size: 20px;
 
 }
+
+
+
