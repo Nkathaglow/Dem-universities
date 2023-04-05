@@ -1,44 +1,3 @@
-const text = document.querySelector(".fancy");
-const strText = text.textContent;
-const splitText = strText.split("");
-text.textContent = "";
-
-for(let i=0; i < splitText.length; i++) {
-  text.innerHTML += "<span>" + splitText[i] + "</span>";
-}
-
-let char = 0;
-let timer = setInterval(onTick,40);
-
-function onTick() {
-  const span = text.querySelectorAll('span')[char];
-  span.classList.add('fade');
-  char++
-  if(char === splitText.length) {
-        complete();
-        return;
-  }
-}
-
-function complete() {
-  clearInterval(timer);
-  timer = null;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 fetch("http://localhost:3000/universities")
 .then(response => response.json())
 .then(data => {
@@ -67,18 +26,19 @@ fetch("http://localhost:3000/universities")
     cardLinkWebsite.classList.add("card-text");
     cardLinkWebsite.innerHTML = `Website: <a href="${university.web_pages[0]}" class="card-link">${university.web_pages[0]}</a>`;
 
-    const cardTextDomains = document.createElement("p");
-    cardTextDomains.classList.add("card-text");
-    cardTextDomains.textContent = `Domains: ${university.domains}`;
+    const cardTextLocation = document.createElement("p");
+    cardTextLocation.classList.add("card-text");
+    cardTextLocation.textContent = `Location: ${university.location}`;
 
-    const likeButton = document.createElement("div");
-    likeButton.classList.add("like-button");
+    const cardTextRanking = document.createElement("p");
+    cardTextRanking.classList.add("card-text");
+    cardTextRanking.textContent = `World Ranking: ${university.ranking}`;
 
     cardContent.appendChild(cardTitle);
     cardContent.appendChild(cardTextCountry);
     cardContent.appendChild(cardLinkWebsite);
-    cardContent.appendChild(cardTextDomains);
-    cardContent.appendChild(likeButton);
+    cardContent.appendChild(cardTextLocation);
+    cardContent.appendChild(cardTextRanking);
 
     cardContainer.appendChild(cardImg);
     cardContainer.appendChild(cardContent);
@@ -120,11 +80,8 @@ sendButton.addEventListener("click", () => {
   // Check if the user sent "hi"
   if (message.toLowerCase() === "hi") {
     newMessage.textContent = "Welcome to our channel, how can we help you?";
-  }else if(message.toLowerCase() === "i don't know what to choose") {
-    newMessage.textContent = "hoovisi...don't worry you're at the right place.";
-  }else if(message.toLowerCase() === "what courses are they offering?") {
-    newMessage.textContent = "tafazali visit the websites.";
-  }else {
+
+  } else {
     newMessage.textContent = `You: ${message}`;
   }
     // Add the new chat message to the chat area
@@ -133,5 +90,7 @@ sendButton.addEventListener("click", () => {
   // Create a new chat message element
 
 });
+
+
 
 

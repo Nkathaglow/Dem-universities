@@ -2,80 +2,103 @@
 <html>
 <head>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="slide.css">
+
   <title>Universities</title>
  
 </head>
 <body>
-  <h1 class="fancy">
+  <header>
+    <h1 class="fancy">
    
-    <span class="fade">N</span>
-    <span class="fade">k</span>
-    <span class="fade">a</span>
-    <span class="fade">t</span>
-    <span class="fade">h</span>
-    <span class="fade">a</span>
-    <span class="fade">'</span>
-    <span class="fade">s</span>
-    <span class="fade"> </span>
-    <span class="fade">U</span>
-    <span class="fade">n</span>
-    <span class="fade">i</span>
-    <span class="fade">v</span>
-    <span class="fade">e</span>
-    <span class="fade">r</span>
-    <span class="fade">s</span>
-    <span class="fade">t</span>
-    <span class="fade">i</span>
-    <span class="fade">e</span>
-    <span class="fade">s</span>
-    <span class="fade">P</span>
-    <span class="fade">l</span>
-    <span class="fade">a</span>
-    <span class="fade">c</span>
-    <span class="fade">e</span>
-    <span class="fade">m</span>
-    <span class="fade">e</span>
-    <span class="fade">n</span>
-    <span class="fade">t</span>
-    <span class="fade"> </span>
-    <span class="fade">S</span>
-    <span class="fade">e</span>
-    <span class="fade">r</span>
-    <span class="fade">v</span>
-    <span class="fade">i</span>
-    <span class="fade">c</span>
-    <span class="fade">e</span>
-    <span class="fade">s</span>
-    
- </h1>
- <div class="hero">
-
+        <span class="fade">N</span>
+        <span class="fade">k</span>
+        <span class="fade">a</span>
+        <span class="fade">t</span>
+        <span class="fade">h</span>
+        <span class="fade">a</span>
+        <span class="fade">'</span>
+        <span class="fade">s</span>
+        <span class="fade"> </span>
+        <span class="fade">U</span>
+        <span class="fade">n</span>
+        <span class="fade">i</span>
+        <span class="fade">v</span>
+        <span class="fade">e</span>
+        <span class="fade">r</span>
+        <span class="fade">s</span>
+        <span class="fade">t</span>
+        <span class="fade">i</span>
+        <span class="fade">e</span>
+        <span class="fade">s</span>
+        <span class="fade">P</span>
+        <span class="fade">l</span>
+        <span class="fade">a</span>
+        <span class="fade">c</span>
+        <span class="fade">e</span>
+        <span class="fade">m</span>
+        <span class="fade">e</span>
+        <span class="fade">n</span>
+        <span class="fade">t</span>
+        <span class="fade"> </span>
+        <span class="fade">S</span>
+        <span class="fade">e</span>
+        <span class="fade">r</span>
+        <span class="fade">v</span>
+        <span class="fade">i</span>
+        <span class="fade">c</span>
+        <span class="fade">e</span>
+        <span class="fade">s</span>
+        
+     </h1>
+   <div class="hero">
 
     <video autoplay loop muted plays-inline class="back-video">
       <source src="glory.mp4" type="video/mp4">
     </video>
     
-    
-      
+    <header>
+      <nav>
+        <img src="sec.png" class="logo">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">Universities</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">CONTACTS</a></li>
+        </ul>
+      </nav>
+    </header>
       <div class="content">
-        <h1><italic>UNIVERSITIES OF MIDDLE EAST</italic></h1>
+        <h1>UNIVERSITIES  <br>OF MIDDLE EAST</h1>
         <a href="#">Explorer</a>
       </div>
     </div>
+  </header>        
+  <h1>Universities</h1>
+              
   <div id="universities"></div>
   <div id="universities-container"></div>
+  
     <h1></h1>
     
     <div class="chat-popup" id="myChat">
         <div class="chat-area" id="chatArea">
+          <p>messages are end-to-end encrypted<br>.No one outside of this chat,can read them.</p>
         </div>
-        <textarea id="chatInput" placeholder="Ask me something..."></textarea>
+        <textarea id="chatInput" placeholder="Type your message..."></textarea>
         <button id="sendButton">Send</button>
         <button id="closeButton">Close</button>
       </div>
-
       <button class="open-button" id="openButton">Chat</button>
+
+  <h2>Comments</h2>
+  <ul id="comments-list"></ul>
+  <form id="comment-form">
+    <textarea id="comment-text" placeholder="Add a comment"></textarea>
+    <button id="submitButton">Submit</button>
+  </form>
+</div>
+
   <script src="index.js"></script>
 </body>
 </html>
