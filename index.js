@@ -24,7 +24,9 @@ function complete() {
 clearInterval(timer);
 timer = null;
 }
-
+let searchBtn = document.getElementById("search-btn");
+let universityRef = document.getElementById("universities");
+ 
 
 
 
@@ -133,6 +135,13 @@ let likeCount = 0;
 document.getElementById("likeButton").addEventListener("click", function() {
   likeCount++;
   document.getElementById("likeCount").innerHTML = likeCount;
+});
+
+let dislikeCount = 0;
+
+document.getElementById("dislikeButton").addEventListener("click", function() {
+  likeCount++;
+  document.getElementById("dislikeCount").innerHTML = likeCount;
 });
 
 

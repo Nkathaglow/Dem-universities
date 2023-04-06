@@ -14,12 +14,13 @@ span {
 span.fade {
     opacity: 1;
     transform: translateY(0px);
-    color: #0014ff;
+    color: #06f8d0;
+    font-size: 30px;
 }
 
 .hero{
   width: 90%;
-  height: 60vh;
+  height: 70vh;
   background-image:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
   position: relative;
   padding: 0 5%;
@@ -27,6 +28,7 @@ span.fade {
   align-items: center;
   justify-content: center;
   margin-right: 10px;
+  overflow: hidden;
 }
 .content {
     text-align: left;
@@ -43,6 +45,12 @@ span.fade {
   right: 0;
   z-index: -1;
 } 
+
+h1 {
+    font-size: 30px;
+    color: #06f8d0;
+}
+
   .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -295,18 +303,15 @@ span.fade {
 }
 
 #likeButton {
-    background-color: #3498db;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-  }
+        color: #31245A;
+        padding: 10px 25px;
+        background: #b09c81;
+        border: 1px solid black;
+        border-radius: 20px;
+        outline: none;
+        cursor: pointer;
+    }
+    
   
   #likeButton:hover {
     background-color: #2980b9;
@@ -316,6 +321,26 @@ span.fade {
     font-size: 16px;
     margin-top: 10px;
   }
+
+  #dislikeButton {
+    color: #31245A;
+    padding: 10px 25px;
+    background: #b09c81;
+    border: 1px solid black;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+#dislikeButton:hover {
+background-color: #2980b9;
+}
+
+#dislikeCount {
+font-size: 16px;
+margin-top: 10px;
+}
   
 
 
