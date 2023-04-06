@@ -117,7 +117,7 @@ sendButton.addEventListener("click", () => {
   }else if (message.toLowerCase() === "i dont know what to choose") {
     newMessage.textContent = "Mashallah,you are at the right place";
   }else if(message.toLowerCase() === "what courses are offered?") {
-    newMessage.textContent = "Hoovisi,please consider visiting the sites offered";
+    newMessage.textContent = "Hoovisi,please consider visiting the sites provided";
   }else {
     newMessage.textContent = `You:${message};`
   }
