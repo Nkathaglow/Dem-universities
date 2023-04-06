@@ -32,7 +32,7 @@ GET request("fetch") accesses data from the link.The response.json we want to ge
 
 ***
 ## Live Link
-Or you can access the web application directly via this [LINK.](link.com/)
+Or you can access the web application directly via this link,(https://nkathaglow.github.io/Dem-universities/)
 ***
 ## Dependencies
 - Google
