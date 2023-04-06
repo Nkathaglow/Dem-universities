@@ -113,10 +113,10 @@ sendButton.addEventListener("click", () => {
   
   // Check if the user sent "hi"
   if (message.toLowerCase() === "hi") {
-    newMessage.textContent = "Welcome to our channel, how can we help you?";
-  }else if(message.toLowerCase() === "I don't know what to choose") {
+    newMessage.textContent = "Welcome to our website, how can we help you?";
+  }else if (message.toLowerCase() === "i dont know what to choose") {
     newMessage.textContent = "Mashallah,you are at the right place";
-  }else if(message.toLowerCase() === "What courses are offered?") {
+  }else if(message.toLowerCase() === "what courses are offered?") {
     newMessage.textContent = "Hoovisi,please consider visiting the sites offered";
   }else {
     newMessage.textContent = `You:${message};`
